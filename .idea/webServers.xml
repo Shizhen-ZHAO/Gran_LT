@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="32d2e0b7-a581-4b04-b503-da9a6ccfb600" name="18">
+        <fileTransfer rootFolder="/home/szzhao/LT_project/vit_LT" accessType="SFTP" host="147.8.181.238" port="22" sshConfigId="04f3ff28-85bf-4d63-9720-64c2e26fff9b" sshConfig="szzhao@147.8.181.238:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="8d78f692-5ad0-4385-a36c-93fd6810b05f" name="16">
+        <fileTransfer rootFolder="/home/szzhao/LT_project/vit_LT" accessType="SFTP" host="10.64.142.16" port="22" sshConfigId="430956d2-dc37-48ff-ac02-69ae576f0637" sshConfig="szzhao@10.64.142.16:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="276bc91c-5212-4d4e-a8a8-0b5f32583981" name="smartmore">
+        <fileTransfer rootFolder="/dataset/xinwen/work/LT_vit" accessType="SFTP" host="10.81.136.40" port="22" sshConfigId="4a589b25-288b-492b-9d3e-457fcd428c6e" sshConfig="xinwen@10.81.136.40:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="bb3b2a6c-63d7-4c92-b780-f7fd338f1be5" name="a100">
+        <fileTransfer rootFolder="/home/jiahliu/project008" accessType="SFTP" host="147.8.181.244" port="22" sshConfigId="e608251f-32ec-4549-a193-d5f2aea95617" sshConfig="shizhen@147.8.181.244:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="11cfad06-b0f8-4e49-912d-3080826782e0" name="19">
+        <fileTransfer rootFolder="/home/shizhen/LT" accessType="SFTP" host="147.8.181.244" port="22" sshConfigId="e608251f-32ec-4549-a193-d5f2aea95617" sshConfig="shizhen@147.8.181.244:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

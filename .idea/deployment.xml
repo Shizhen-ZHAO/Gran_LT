@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="18" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="16">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/ckpt/run_dinov2_imagenetlt_granularity_s10000m2_lr875_mask_type_no_fm_2_remove_normal_neg_contrastive/ImageNet-LT/vit_base_patch14_dinov2/run_dinov2_imagenetlt_granularity_s10000m2_lr875_mask_type_no_fm_2_remove_normal_neg_contrastive/checkpoint.pth" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="18">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/models_extend/dino/vision_transformer.py" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="19">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="a100">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/exp/run_clip_imagenetlt_aug_8g_scale1" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="smartmore">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
