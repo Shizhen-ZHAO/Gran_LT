@@ -20,7 +20,7 @@ tensorboardX >= 2.1
 
 ## Data preparation
 
-We adopt `torchvision.datasets.ImageFolder` to build our dataloaders. Hence, we resort all datasets (ImageNet-LT, iNat18, Places-LT, CIFAR) as follows:
+We adopt `torchvision.datasets.ImageFolder` to build our dataloaders. Hence, we resort all datasets (ImageNet-LT, iNat18, Places-LT) as follows:
 
 ```shell
 /path/to/ImageNet-LT/
