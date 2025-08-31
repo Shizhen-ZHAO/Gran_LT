@@ -50,22 +50,7 @@ The detailed information of these datasets are shown as follows:
 
 2. Typically, make sure 4 or 8 GPUs and >12GB per GPU Memory are available.
 
-3. Keep the settings consistent with the follows.
-
-&nbsp;
-<p align="center">
-<img src='assets/augmentation.png'>
-</p>
-&nbsp;
-<p align="center">
-<img src='assets/hyper.png'>
-</p>
-&nbsp;
-
-
-You can see all args in Class `Trainer` in `util/trainer.py`. 
-
-Specially, for different stage, the commands are:
+The training and evaluation scripts are under the script folder, for example 
 
 ```python
 # DINOV2
