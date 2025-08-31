@@ -37,12 +37,6 @@ We adopt `torchvision.datasets.ImageFolder` to build our dataloaders. Hence, we 
 ```
 You can follow the `prepare.py` to construct your dataset.
 
-The detailed information of these datasets are shown as follows:
-&nbsp;
-<p align="center">
-<img src='assets/dataset_info.png'>
-</p>
-&nbsp;
 
 ## Usage
 
